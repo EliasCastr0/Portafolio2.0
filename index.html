@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias Castro | Ciberseguridad & Soporte IT</title>
+    <meta name="description" content="Técnico Analista en Sistemas especializado en Ciberseguridad, Soporte Técnico y Desarrollo. Oliva, Córdoba, Argentina.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="lang-switch">
+            <button class="btn-lang" id="btnLang" data-i18n="navLang">ES / EN</button>
+        </div>
+        <div class="nav-right">
+            <button class="mode-toggle" id="modeToggle">MODO OSCURO</button>
+            <div class="menu-icon" id="menuIcon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text-top" data-i18n="heroTop">
+                <span>I'm</span>
+                <span class="serif-italic">Elias Castro</span>
+            </div>
+            <div class="hero-main-title">
+                <div class="background-text" id="backgroundText" data-i18n="heroBg">
+                    <span>CIBER</span>
+                    <span>SEGURIDAD</span>
+                </div>
+                <div class="person-container">
+                    <img src="https://raw.githubusercontent.com/EliasCastr0/Portafolio2.0/main/foto3.png"
+                         alt="Elias Castro" class="hero-image" id="heroImage">
+                </div>
+            </div>
+            <div class="hero-bottom">
+                <div class="hero-info-left">
+                    <p class="small-label" data-i18n="heroPill">CIBERSEGURIDAD · SOPORTE IT · SISTEMAS</p>
+                </div>
+                <!-- <div class="hero-cta"> removed based on user request -->
+                <div class="hero-info-right">
+                    <p class="description" data-i18n="heroDesc">Técnico Analista en Sistemas con foco en ciberseguridad, soporte técnico y soluciones digitales reales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="servicios">
+        <div class="section-inner">
+            <h2 class="section-title" data-i18n="servTitle1">TODAS TUS<br><span class="serif-italic">necesidades</span></h2>
+            <div class="services-content">
+                <div class="services-tags" id="tagsContainer">
+                    <div class="tag"><i class="ph ph-shield-check"></i>Ciberseguridad</div>
+                    <div class="tag"><i class="ph ph-bug-beaker"></i>Hacking Ético</div>
+                    <div class="tag"><i class="ph ph-magnifying-glass"></i>OSINT</div>
+                    <div class="tag"><i class="ph ph-desktop"></i>Soporte IT</div>
+                    <div class="tag"><i class="ph ph-network-x"></i>Redes</div>
+                    <div class="tag"><i class="ph ph-robot"></i>Automatización</div>
+                </div>
+                <div class="services-info">
+                    <p data-i18n="servDesc">Seguridad, soporte y desarrollo en un solo lugar. Soluciones reales para entornos corporativos y independientes.</p>
+                    <button class="btn-outline" id="btn-ver-mas" data-i18n="btnVerMas">VER MÁS</button>
+                    <button class="btn-outline" id="btn-ir-atras" style="display:none;" data-i18n="btnIrAtras">IR ATRÁS</button>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/elias-castro-programador/" target="_blank" class="social-icon" title="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="https://github.com/EliasCastr0" target="_blank" class="social-icon" title="GitHub"><i class="ph ph-github-logo"></i></a>
+                        <a href="mailto:eliascastroinformatica@gmail.com" class="social-icon" title="Email"><i class="ph ph-envelope-simple"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="about" id="sobre-mi">
+        <div class="section-inner">
+            <div class="about-grid">
+                <div class="about-label">
+                    <span class="label-tag" data-i18n="aboutLabel">PERFIL</span>
+                </div>
+                <div class="about-content">
+                    <h2 class="about-title" data-i18n="aboutTitle">Hola, soy <span class="serif-italic">Elias</span> <i class="ph-fill ph-hand-waving" style="color: #FFB300;"></i></h2>
+                    <p class="about-text" data-i18n="aboutP1">Técnico Analista en Sistemas Informáticos con experiencia en <strong>soporte técnico, implementación de sistemas y administración de usuarios</strong>. Mi trayectoria combina atención a clientes, gestión de accesos y documentación, siempre con foco en seguridad y continuidad operativa.</p>
+                    <p class="about-text" data-i18n="aboutP2">Actualmente profundizando en <strong>ciberseguridad, forense digital y Soporte IT y Redes</strong>, con el objetivo de aportar soluciones completas en entornos empresariales.</p>
+                    <div class="about-chips">
+                        <span class="chip" data-i18n="chip1"><i class="ph ph-map-pin"></i>Oliva, Córdoba</span>
+                        <span class="chip" data-i18n="chip2"><i class="ph ph-check-circle"></i>Disponible remoto</span>
+                        <span class="chip" data-i18n="chip3"><i class="ph ph-rocket-launch"></i>Open to work</span>
+                    </div>
+                    <a href="https://raw.githubusercontent.com/EliasCastr0/Portafolio2.0/main/CVEliasCastro.pdf"
+                       class="btn-download" id="btnCV" download><span data-i18n="btnDownload">DESCARGAR CV ↓</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section class="experience" id="experiencia">
+        <div class="section-inner">
+            <h2 class="section-title-dark" data-i18n="expTitle">EXPERIENCIA</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date" data-i18n="expActualidad">2023 – Actualidad</span>
+                        <h3 class="timeline-role">IT Consultant / Freelance Technical Support</h3>
+                        <p class="timeline-location"><i class="ph ph-map-pin" style="margin-right:5px;"></i>Córdoba, Argentina</p>
+                        <ul class="timeline-list">
+                            <li data-i18n="exp1Li1">Soporte de primer nivel presencial y remoto (AnyDesk)</li>
+                            <li data-i18n="exp1Li2">Análisis de registros e identificación de patrones de falla</li>
+                            <li data-i18n="exp1Li3">ABM de usuarios en Microsoft 365 y Google Workspace</li>
+                            <li data-i18n="exp1Li4">Scripts en PowerShell y Bash para auditorías y reportes</li>
+                            <li data-i18n="exp1Li5">Ticketing en Jira y GitHub</li>
+                            <li data-i18n="exp1Li6">Gestión de hosting, dominios y correo corporativo</li>
+                            <li data-i18n="exp1Li7">Detección y prevención de ataques de phishing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date" data-i18n="expActualidad">2023 – Actualidad</span>
+                        <h3 class="timeline-role">Web Developer & Digital Consultant</h3>
+                        <p class="timeline-location"><i class="ph ph-map-pin" style="margin-right:5px;"></i>Córdoba, Argentina</p>
+                        <ul class="timeline-list">
+                            <li data-i18n="exp2Li1">Integración de APIs REST y herramientas de IA</li>
+                            <li data-i18n="exp2Li2">Fortalecimiento de seguridad en servidores y entornos web</li>
+                            <li data-i18n="exp2Li3">Programación con C# .NET y SQL Server</li>
+                            <li data-i18n="exp2Li4">Documentación de integraciones para continuidad operativa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOP CONTENT CAROUSEL -->
+    <section class="top-content" id="top-content">
+        <div class="section-inner" style="max-width:100%; padding:0; overflow:hidden;">
+            <div style="max-width:1200px; margin:0 auto; padding:0 var(--padding-sides);">
+                <h2 class="section-title" data-i18n="topTitle">TOP<br><span class="serif-italic">content</span></h2>
+            </div>
+            
+            <div class="carousel-container reveal">
+                <div class="carousel-track">
+                    <!-- Set 1 (Duplicates for infinite scroll) -->
+                    <a href="https://www.youtube.com/watch?v=sq9e9HYw7Qs&t=1s" target="_blank" class="content-card yt-card">
+                        <div class="card-thumb" style="background-image: url('https://img.youtube.com/vi/sq9e9HYw7Qs/mqdefault.jpg');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-youtube-logo"></i>
+                            <div>
+                                <h3>Análisis de phishing</h3>
+                                <p>YouTube</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=wokFcMtVXqk&t=3s" target="_blank" class="content-card yt-card">
+                        <div class="card-thumb" style="background-image: url('https://img.youtube.com/vi/wokFcMtVXqk/mqdefault.jpg');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-youtube-logo"></i>
+                            <div>
+                                <h3>Partición y hardware</h3>
+                                <p>YouTube</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=fcdx9prxvYE&t=23s" target="_blank" class="content-card yt-card">
+                        <div class="card-thumb" style="background-image: url('https://img.youtube.com/vi/fcdx9prxvYE/mqdefault.jpg');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-youtube-logo"></i>
+                            <div>
+                                <h3>IA y automatización</h3>
+                                <p>YouTube</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7449802949599567872/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('img/vuln.png');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Analizando vulnerabilidades</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7448039611085369346/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&q=80');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Consejos de ciberseguridad</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7445527618449453056/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('img/wa.png');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Seguridad en cuentas de WhatsApp</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7430757710368804864/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&q=80');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Programación WEB</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7432435096219099136/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Desarrollo E-Commerce</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Set 2 (Exact mirror for seamless loop) -->
+                     <a href="https://www.youtube.com/watch?v=sq9e9HYw7Qs&t=1s" target="_blank" class="content-card yt-card">
+                        <div class="card-thumb" style="background-image: url('https://img.youtube.com/vi/sq9e9HYw7Qs/mqdefault.jpg');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-youtube-logo"></i>
+                            <div>
+                                <h3>Análisis de phishing</h3>
+                                <p>YouTube</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=wokFcMtVXqk&t=3s" target="_blank" class="content-card yt-card">
+                        <div class="card-thumb" style="background-image: url('https://img.youtube.com/vi/wokFcMtVXqk/mqdefault.jpg');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-youtube-logo"></i>
+                            <div>
+                                <h3>Partición y hardware</h3>
+                                <p>YouTube</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=fcdx9prxvYE&t=23s" target="_blank" class="content-card yt-card">
+                        <div class="card-thumb" style="background-image: url('https://img.youtube.com/vi/fcdx9prxvYE/mqdefault.jpg');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-youtube-logo"></i>
+                            <div>
+                                <h3>IA y automatización</h3>
+                                <p>YouTube</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7449802949599567872/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('img/vuln.png');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Analizando vulnerabilidades</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7448039611085369346/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&q=80');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Consejos de ciberseguridad</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7445527618449453056/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('img/wa.png');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Seguridad en cuentas de WhatsApp</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7430757710368804864/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&q=80');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Programación WEB</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7432435096219099136/" target="_blank" class="content-card li-card">
+                        <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80');"></div>
+                        <div class="card-info">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                            <div>
+                                <h3>Desarrollo E-Commerce</h3>
+                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="habilidades">
+        <div class="section-inner">
+            <h2 class="section-title-dark" data-i18n="skillsTitle">SKILLS &<br><span class="serif-italic">tools</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3 class="skill-cat-title"><i class="ph ph-shield-check"></i> Ciberseguridad</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Hacking Ético</span>
+                        <span class="skill-pill">OSINT</span>
+                        <span class="skill-pill">Forense Digital</span>
+                        <span class="skill-pill">Análisis de Malware</span>
+                        <span class="skill-pill">Seguridad de Redes</span>
+                        <span class="skill-pill">Cisco Packet Tracer</span>
+                        <span class="skill-pill">Kali Linux</span>
+                        <span class="skill-pill">VMware</span>
+                        <span class="skill-pill">SANS SIFT Workstation</span>
+                        <span class="skill-pill">BurpSuite</span>
+                        <span class="skill-pill">ExifTool</span>
+                        <span class="skill-pill">Nmap</span>
+                        <span class="skill-pill">Windows Forensics</span>
+                        <span class="skill-pill">ISOs de Ciberseguridad</span>
+                        <span class="skill-pill">Obsidian</span>
+                        <span class="skill-pill">Bug Bounty</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3 class="skill-cat-title"><i class="ph ph-desktop"></i> Soporte & Sistemas</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Windows Server</span>
+                        <span class="skill-pill">Linux</span>
+                        <span class="skill-pill">Active Directory</span>
+                        <span class="skill-pill">Microsoft 365</span>
+                        <span class="skill-pill">Google Workspace</span>
+                        <span class="skill-pill">PowerShell</span>
+                        <span class="skill-pill">Bash</span>
+                        <span class="skill-pill">AnyDesk</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3 class="skill-cat-title"><i class="ph ph-code"></i> Desarrollo & Datos</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">C# .NET</span>
+                        <span class="skill-pill">SQL Server</span>
+                        <span class="skill-pill">APIs REST</span>
+                        <span class="skill-pill">HTML / CSS / JS</span>
+                        <span class="skill-pill">Git & GitHub</span>
+                        <span class="skill-pill">Inteligencia Artificial</span>
+                        <span class="skill-pill">Gemini</span>
+                        <span class="skill-pill">Copilot</span>
+                        <span class="skill-pill">Antigravity</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3 class="skill-cat-title"><i class="ph ph-clipboard-text"></i> Gestión</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">ServiceNow</span>
+                        <span class="skill-pill">Jira</span>
+                        <span class="skill-pill">Documentación técnica</span>
+                        <span class="skill-pill">Hosting & Dominios</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICACIONES -->
+    <section class="certifications" id="certificaciones">
+        <div class="section-inner">
+            <h2 class="section-title" data-i18n="certTitle">CERTIFICACIONES</h2>
+            <div class="certs-grid">
+                <a href="https://credsverse.com/credentials/93f73d68-bf6a-47fe-ac5e-11fd28d93448" target="_blank" class="cert-card reveal">
+                    <div class="cert-icon"><i class="ph-light ph-file-pdf"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">HackerMentor</span>
+                        <h3 class="cert-name">Forense Digital y Delitos Informáticos</h3>
+                        <span class="cert-year">2026</span>
+                        <br><span class="btn-cert" data-i18n="certBtn">Ver certificado →</span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/eliasjcastro/overlay/Certifications/365763568/treasury/?profileId=ACoAAFGeNsEBJHiw4u44oBG8IsSQ7FzQHTcwiOs" target="_blank" class="cert-card reveal">
+                    <div class="cert-icon"><i class="ph-light ph-shield-warning"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">LinkedIn / Adicional</span>
+                        <h3 class="cert-name">Pericias Informáticas y Ciberterrorismo</h3>
+                        <span class="cert-year">2026</span>
+                        <br><span class="btn-cert" data-i18n="certBtn">Ver certificado →</span>
+                    </div>
+                </a>
+                <a href="https://certificados.thebigschool.com/wp-content/uploads/certs/MCIB/Certificado-Elias-Castro-imha5qee.pdf" target="_blank" class="cert-card reveal">
+                    <div class="cert-icon"><i class="ph-light ph-certificate"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">Big School</span>
+                        <h3 class="cert-name">Ciberseguridad y Hacking Ético</h3>
+                        <span class="cert-year">2026</span>
+                        <br><span class="btn-cert" data-i18n="certBtn">Ver certificado →</span>
+                    </div>
+                </a>
+                <a href="https://app.kajabi.com/certificates/7ffe5189" target="_blank" class="cert-card reveal">
+                    <div class="cert-icon"><i class="ph-light ph-magnifying-glass"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">CiberPatrulla</span>
+                        <h3 class="cert-name">Investigación OSINT</h3>
+                        <span class="cert-year">2026</span>
+                        <br><span class="btn-cert" data-i18n="certBtn">Ver certificado →</span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/eliasjcastro/overlay/Certifications/365992263/treasury/?profileId=ACoAAFGeNsEBJHiw4u44oBG8IsSQ7FzQHTcwiOs" target="_blank" class="cert-card reveal">
+                    <div class="cert-icon"><i class="ph-light ph-shield-check"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">Cisco Networking Academy</span>
+                        <h3 class="cert-name">Introducción a la Ciberseguridad</h3>
+                        <span class="cert-year">2025</span>
+                        <br><span class="btn-cert" data-i18n="certBtn">Ver certificado →</span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/eliasjcastro/overlay/Certifications/826816488/treasury/?profileId=ACoAAFGeNsEBJHiw4u44oBG8IsSQ7FzQHTcwiOs" target="_blank" class="cert-card reveal">
+                    <div class="cert-icon"><i class="ph-light ph-hard-drives"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">Cisco Networking Academy</span>
+                        <h3 class="cert-name">Cisco Packet Tracer</h3>
+                        <span class="cert-year">2026</span>
+                        <br><span class="btn-cert" data-i18n="certBtn">Ver certificado →</span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/eliasjcastro/overlay/Certifications/1921828161/treasury?profileId=ACoAAFGeNsEBJHiw4u44oBG8IsSQ7FzQHTcwiOs" target="_blank" class="cert-card reveal">
+                    <div class="cert-icon"><i class="ph-light ph-robot"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">BigSchool & MoureDEV</span>
+                        <h3 class="cert-name">Desarrollo con IA</h3>
+                        <span class="cert-year">2025</span>
+                        <br><span class="btn-cert" data-i18n="certBtn">Ver certificado →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="projects" id="proyectos">
+        <div class="section-inner">
+            <h2 class="section-title-dark" data-i18n="projTitle">PROYECTOS</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-number">01</div>
+                    <h3 class="project-title" data-i18n="proj1Title">Automatización de Auditorías</h3>
+                    <p class="project-desc" data-i18n="proj1Desc">Herramientas internas para exportación masiva de datos y control de drivers en estaciones de trabajo.</p>
+                    <div class="project-tags">
+                        <span>PowerShell</span><span>Bash</span><span>Auditoría</span>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-number">02</div>
+                    <h3 class="project-title" data-i18n="proj2Title">Despliegue de Aplicaciones</h3>
+                    <p class="project-desc" data-i18n="proj2Desc">Landing pages con integración de bases de datos, aplicando buenas prácticas de seguridad desde el código.</p>
+                    <div class="project-tags">
+                        <span>SQL Server</span><span>APIs</span><span>Seguridad</span>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-number">03</div>
+                    <h3 class="project-title" data-i18n="proj3Title">Entornos de Pruebas Forenses</h3>
+                    <p class="project-desc" data-i18n="proj3Desc">Laboratorios virtuales para análisis de malware y recuperación de datos en entornos controlados.</p>
+                    <div class="project-tags">
+                        <span>VMs</span><span>Forense</span><span>Malware</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contacto">
+        <div class="section-inner">
+            <h2 class="section-title" data-i18n="contactTitle">HABLE<br><span class="serif-italic">mos</span></h2>
+            <div class="contact-content">
+                <p class="contact-sub" data-i18n="contactSub">¿Necesitás soporte, consultoría en seguridad o un desarrollador confiable? Escribime a través de cualquiera de mis canales.</p>
+                <div class="contact-links">
+                    <a href="https://wa.me/5493532416057" class="contact-item" id="contactWhatsapp">
+                        <span class="contact-icon"><i class="ph ph-whatsapp-logo"></i></span><span>WhatsApp · +54 9 3532 41-6057</span>
+                    </a>
+                    <a href="mailto:eliascastroinformatica@gmail.com" class="contact-item" id="contactEmail">
+                        <span class="contact-icon"><i class="ph ph-envelope-simple"></i></span><span>eliascastroinformatica@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/elias-castro-programador/" target="_blank" class="contact-item" id="contactLinkedin">
+                        <span class="contact-icon"><i class="ph ph-linkedin-logo"></i></span><span>LinkedIn · Elias Castro</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p data-i18n="footer">© 2026 Elias Castro · Oliva, Córdoba, Argentina</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
